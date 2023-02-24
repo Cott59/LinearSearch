@@ -32,15 +32,32 @@ int search_Last_index(T arr[], const int length, T value, int begin ) {
 }
 
 
+void subword(char word[], ) {
+	int index = search_index(word, size, sym);
 
+
+}
 
 
 int main() {
 	setlocale(LC_ALL, "Russian");
 	int n;
-	const int size = 10;
-	int arr[10]{ 10,16,49,34,2,6,16,10,5,24 };
-	//            0  1 2   3 4 5  6  7 8  9 
+
+	// задача 2- подслово
+	std::cout << "  Задача 2 \n Слово:\n";
+	const int word_size = 8;
+	char word[word_size]{
+		'f','u','n','c','t','i','o','n'
+	}
+		for (int )
+
+
+
+
+
+	//const int size = 10;
+	//int arr[10]{ 10,16,49,34,2,6,16,10,5,24 };
+	////            0  1 2   3 4 5  6  7 8  9 
 
 	//// Линейный поиск первого вхождения в массив
 	//std::cout << "Массив :\n";
@@ -54,17 +71,17 @@ int main() {
 	//else
 	//	std::cout << " Числа нет в массиве \n";
 
-	// Линейный поиск последнего вхождения в массив, с конца
-	std::cout << "Массив :\n";
-	print_arr(arr, size);
-	std::cout << " Введите число для поиска ->";
-	std::cin >> n;
-	int index;
-	index = search_Last_index(arr, size, n,5);
-	if (index != -1)
-		std::cout << " Индекс числа " << n << ": " << index << '\n';
-	else
-		std::cout << " Числа нет в массиве \n";
+	//// Линейный поиск последнего вхождения в массив, с конца
+	//std::cout << "Массив :\n";
+	//print_arr(arr, size);
+	//std::cout << " Введите число для поиска ->";
+	//std::cin >> n;
+	//int index;
+	//index = search_Last_index(arr, size, n,5);
+	//if (index != -1)
+	//	std::cout << " Индекс числа " << n << ": " << index << '\n';
+	//else
+	//	std::cout << " Числа нет в массиве \n";
 
 
 
